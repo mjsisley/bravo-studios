@@ -1,0 +1,39 @@
+{
+  "env": {
+    "production": {
+      "presets": ["next/babel"],
+      "plugins": [
+        ["styled-components", { "ssr": true }],
+        ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
+        ["babel-plugin-macros"],
+        ["@babel/plugin-proposal-optional-chaining"],
+        ["babel-plugin-transform-remove-console"]
+      ]
+    },
+    "development": {
+      "presets": [
+        [
+          "next/babel",
+          {
+            "preset-env": {
+              "targets": {
+                "browsers": "last 1 Chrome version",
+                "node": true
+              }
+            },
+            "transform-runtime": {
+              "regenerator": false
+            }
+          }
+        ]
+      ],
+      "plugins": [
+        ["styled-components", { "ssr": true }],
+        ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
+        ["babel-plugin-macros"],
+        ["@babel/plugin-proposal-optional-chaining"],
+        ["console"]
+      ]
+    }
+  }
+}

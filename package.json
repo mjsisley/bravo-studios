@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev:client": "cd ./clients/nextjs_test && yarn dev",
+    "dev:server": "cd ./server/trial_elixir && mix phx.server",
+    "dev": "yarn dev:server & yarn dev:client"
+  },
+  "dependencies": {
+    "jwt-decode": "^2.2.0"
+  }
+}
