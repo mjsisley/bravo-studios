@@ -1,3 +1,6 @@
+import Head from "next/head";
+import Link from  "next/link";
+
 const Home = () => {
     // const user = useContext(AuthContext);
     // console.log(user);
@@ -10,7 +13,7 @@ const Home = () => {
         </Head>
         <h1>Historical Criteria</h1>
         
-        <Link href="/historical-screening-criteria/criteria-effective-20220129">Effective 01/29/2022 for Unit B02</Link>
+        <Link href="/screening-criteria/historical-screening-criteria/criteria-effective-20220129">Effective 01/29/2022 for Unit B02</Link>
       </>
     );
   };
