@@ -1,0 +1,3 @@
+1. Finish editing screening criteria in the current-screening-criteria.md file.
+2. When 100% complete, make a new file in the historical-screening-criteria folder with a title saying criteria-effective-YYYY-MM-DD.md and copy the contents of the new current criteria. This is important to maintain an accurate, easily auditable historical criteria record.
+3. Add links to historical-screening-criteria/index.js file for the new criteria following the existing format (on the date of creation). The historical screening criteria will always include the current screening criteria twice (with the date as well). This will make it easier to maintain the effective date.
