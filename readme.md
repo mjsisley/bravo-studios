@@ -85,11 +85,13 @@ The co-signer will be Approved if ALL of the qualifications below are met:
   offering a higher rent amount may result in priority of another application.
 - Occupancy limits are established per unit per Seattle Ordinances for Fire Safety and Occupiable Space per person. Please consult with an Artisan Studios Representative for the unit in question.
 - Utility Fees:
-  - Garbage: Prorated per full occupancy, roughly $20/month.
-  - Water and hot water heating are billed based on submetering.
-  - Sewer is based upon pro-ration of base charge and water consumption.
-  - Electric: An account with Seattle City Light will be in your name for the unit.
-  - High speed internet available via Lumen (CenturyLink) and can be set up immediately with directions in unit.
+  <!-- * Garbage: Prorated per full occupancy, roughly $20/month. 
+    * Water and hot water heating are billed based on submetering.
+    * Sewer is based upon pro-ration of base charge and water consumption. -->
+  * Water - Sewer - Garbage - Hot Water Heating: $95 per occupant. Water use measured via submetering and excessive use subject to a surcharge as defined in the lease agreement.
+  * Electric: An account with Seattle City Light will be in your name for the unit.
+  * High speed internet available via Lumen (CenturyLink) and can be set up immediately with directions in unit.
+
 
 ## Notes:
 

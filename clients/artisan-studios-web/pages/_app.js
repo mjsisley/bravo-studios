@@ -1,6 +1,6 @@
 import App from "next/app";
 import React from "react";
-import { ThemeProvider } from "styled-components";
+// import { ThemeProvider } from "styled-components";
 // import { ApolloProvider } from "@apollo/react-hooks";
 // import StateProvider from "../lib/StateProvider";
 // import withApolloClient from "../lib/with-apollo-client";
