@@ -6,27 +6,27 @@ const path = require("path");
 const withDotenv = require("next-runtime-dotenv");
 
 // image hashing/colocation deps
-const withImages = require("next-images");
+// const withImages = require("next-images");
 
 // Compose Plugins
 const withPlugins = require("next-compose-plugins");
 
 // Add progress to cli
-const withProgressBar = require("next-progressbar");
+// const withProgressBar = require("next-progressbar");
 
 // Add pino logger
 // const withPino = require("next-pino");
 
 // Add graphql files
-const withGraphql = require("next-plugin-graphql");
+// const withGraphql = require("next-plugin-graphql");
 
 const withTM = require("next-transpile-modules");
 
-const withBundleAnalyzer = require("@zeit/next-bundle-analyzer");
-const withSourceMaps = require("@zeit/next-source-maps")({
-  devtool: "hidden-source-map",
-});
-const withSize = require("next-size");
+// const withBundleAnalyzer = require("@zeit/next-bundle-analyzer");
+// const withSourceMaps = require("@zeit/next-source-maps")({
+  // devtool: "hidden-source-map",
+// });
+// const withSize = require("next-size");
 
 const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,
@@ -128,13 +128,13 @@ module.exports = withConfig(
           ],
         },
       ],
-      withGraphql,
-      withImages,
+      // withGraphql,
+      // withImages,
       //   withSourceMaps,
-      withProgressBar,
+      // withProgressBar,
       // withPino,
       // bundleAnalyzerSetup,
-      withSize,
+      // withSize,
     ],
     config
   )
