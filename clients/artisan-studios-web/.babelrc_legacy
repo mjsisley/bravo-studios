@@ -4,9 +4,9 @@
       "presets": ["next/babel"],
       "plugins": [
         ["styled-components", { "ssr": true }],
-        ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
-        ["babel-plugin-macros"],
-        ["@babel/plugin-proposal-optional-chaining"],
+        // ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
+        // ["babel-plugin-macros"],
+        // ["@babel/plugin-proposal-optional-chaining"],
         ["babel-plugin-transform-remove-console"]
       ]
     },
@@ -29,9 +29,9 @@
       ],
       "plugins": [
         ["styled-components", { "ssr": true }],
-        ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
-        ["babel-plugin-macros"],
-        ["@babel/plugin-proposal-optional-chaining"],
+        // ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
+        // ["babel-plugin-macros"],
+        // ["@babel/plugin-proposal-optional-chaining"],
         ["console"]
       ]
     }

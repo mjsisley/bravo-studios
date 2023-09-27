@@ -3,7 +3,7 @@ const path = require("path");
 // dotenv deps
 // require("dotenv").config();
 // const Dotenv = require("dotenv-webpack");
-const withDotenv = require("next-runtime-dotenv");
+// const withDotenv = require("next-runtime-dotenv");
 
 // image hashing/colocation deps
 // const withImages = require("next-images");
@@ -65,11 +65,11 @@ const config = {
 };
 
 // Setup dotenv config
-const withConfig = withDotenv({
-  path: path.join(__dirname, ".env"),
-  public: ["MY_API_URL", "TEST"],
-  server: ["GITHUB_TOKEN"],
-});
+// const withConfig = withDotenv({
+//   path: path.join(__dirname, ".env"),
+//   public: ["MY_API_URL", "TEST"],
+//   server: ["GITHUB_TOKEN"],
+// });
 
 const makeModulesCommon = (config) => {
   const cacheGroups = config.optimization.splitChunks.cacheGroups;
@@ -111,12 +111,16 @@ const makeModulesCommon = (config) => {
 //   },
 // ];
 
-module.exports = withConfig(
+// module.exports = withConfig(
+  module.exports =
   withPlugins(
     [
       withMDX({
         pageExtensions: ['js', 'jsx', 'md', 'mdx'],
-      }),
+      experimental: {
+        mdxRs:true,
+      }}),
+      
       [
         withTM,
         {
@@ -138,4 +142,4 @@ module.exports = withConfig(
     ],
     config
   )
-);
+// );
