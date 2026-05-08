@@ -1,27 +1,25 @@
 {
   "dependencies": {
-    "@mdx-js/loader": "^2.1.5",
-    "@mdx-js/react": "^2.1.5",
-    "@next/mdx": "^13.0.2",
+    "@mdx-js/loader": "^3.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "@next/mdx": "^15.3.2",
     "immutability-helper": "^3.0.2",
     "import-all.macro": "^2.0.3",
     "match-sorter": "^4.0.1",
     "namor": "^1.1.2",
-    "next": "^13.0.2",
-    "next-compose-plugins": "^2.2.1",
-    "next-transpile-modules": "^8.0.0",
+    "next": "^15.3.2",
     "polished": "^3.6.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "rebass": "^4.0.7",
     "remark-emoji": "^2.0.2",
     "remark-images": "^1.0.0",
-    "styled-components": "^5.0.0"
+    "styled-components": "^6.1.18"
   },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "static-export": "next build && next export",
+    "static-export": "next build",
     "start": "next start"
   },
   "name": "artisan_studios_web",
@@ -31,8 +29,5 @@
   "devDependencies": {
     "babel-plugin-console": "^0.2.1",
     "eslint-plugin-react-hooks": "^2.0.1"
-  },
-  "engines": {
-    "node": ">=18.18.0"
   }
 }
