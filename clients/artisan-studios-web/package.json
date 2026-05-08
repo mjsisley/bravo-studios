@@ -31,5 +31,8 @@
   "devDependencies": {
     "babel-plugin-console": "^0.2.1",
     "eslint-plugin-react-hooks": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=18.18.0"
   }
 }
