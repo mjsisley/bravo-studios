@@ -1,23 +1,9 @@
-import { useContext } from "react";
-import Head from "next/head";
-// import styled from "styled-components";
-// import Header from "./0shared/Header";
-// import { AuthContext } from "utils/context";
+import { useEffect } from 'react';
 
-const Home = () => {
-  // const user = useContext(AuthContext);
-  // console.log(user);
-  return (
-    <>
-      <Head>
-        <title>Home</title>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
-      {/* <Header /> */}
-      
-    </>
-  );
-};
+export default function HomeRedirect() {
+  useEffect(() => {
+    window.location.replace('/screening-criteria/current-screening-criteria');
+  }, []);
 
-export default Home;
+  return <p>Redirecting to current screening criteria...</p>;
+}
