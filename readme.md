@@ -93,6 +93,17 @@ The co-signer will be Approved if ALL of the qualifications below are met:
   * Electric: An account with Seattle City Light will be in your name for the unit.
   * High speed internet available via Lumen (CenturyLink) and can be set up immediately with directions in unit.
 
+
+## Updating Screening Criteria (Source of Truth)
+
+To update the criteria shown on the live site, edit files in `clients/artisan-studios-web/pages/screening-criteria/`:
+
+1. Update the current criteria in `clients/artisan-studios-web/pages/screening-criteria/current-screening-criteria.mdx`.
+2. Create a historical snapshot in `clients/artisan-studios-web/pages/screening-criteria/historical-screening-criteria/` using `criteria-effective-YYYYMMDD.mdx`.
+3. Add the new historical entry to `clients/artisan-studios-web/pages/screening-criteria/historical-screening-criteria/index.js` so it appears on the historical criteria page.
+
+> Note: The `pages/screening-criteria` directory is the source of truth for published criteria content.
+
 ## Notes:
 
 - Artisan Studios may change criteria over time. The criteria in effect below at the time of your applications’ submittal shall be used in determining your eligibility and will be evaluated in the order received per Seattle law. You are encouraged to apply even if you do not meet the criteria. While you may not be offered tenancy on your application, we will notify you if our posted application criteria changes and invite you to reapply with a waiver of the application fee. [All historical screening criteria is available here](/screening-criteria/historical-screening-criteria).
