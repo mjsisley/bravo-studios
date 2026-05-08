@@ -1,8 +1,30 @@
-*node_modules*
+# dependencies
+node_modules/
+
+# env
 .env
-.next*
+.env.local
+.env.*.local
 
+# next.js build/export artifacts
+.next/
+out/
 
+# caches and local build tooling
+.cache/
+webpack/
+
+# logs
+*.log
+logfile
+yarn-error.log*
+
+# common build outputs
+coverage/
+dist/
+build/
+
+# OS junk
 .DS_Store
 .DS_Store?
 ._*
@@ -10,4 +32,3 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-
