@@ -7,6 +7,15 @@ const withMDX = require('@next/mdx')({
 const nextConfig = {
   output: 'export',
   pageExtensions: ['js', 'jsx'],
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/screening-criteria/current-screening-criteria',
+        permanent: false,
+      },
+    ];
+  },
   transpilePackages: [
     'react-dnd-html5-backend',
     'react-dnd',
